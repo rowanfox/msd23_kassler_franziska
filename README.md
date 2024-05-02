@@ -1,4 +1,4 @@
-# Calculator-Example
+# EXERCISE 1 - Calculator-Example
 
 Calculator-Example is a package including methods for performing calculations (the four basic types of calculation).
 
@@ -26,12 +26,26 @@ import at.fhj.iit.ICalculator;
 
 ```
 
+
 ## Contributing
 
 Feedback is highly appreciated and can be sent to **mail@adress.com**!
 
 
-[Exercise1](exercise1.md)
+# EXERCISE 2
+- [GitHub profile](https://github.com/rowanfox)
+- [FH JOANNEUM](https://www.fh-joanneum.at)
+
+
+
+
+
+
+
+# EXERCISES 
+- [Exercise1](exercise1.md)
+- [Exercise2](exercise2.md)
+
 
 
 
