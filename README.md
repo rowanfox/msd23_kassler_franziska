@@ -40,8 +40,6 @@ Feedback is highly appreciated and can be sent to **mail@adress.com**!
 
 
 
-
-
 # EXERCISES 
 - [Exercise1](exercise1.md)
 - [Exercise2](exercise2.md)
