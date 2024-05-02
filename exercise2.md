@@ -92,6 +92,7 @@ Globale Konfiguration in Home-Verzeichnis gespeichert
 5. git status: mehrmals, zum Abrufen der Änderungen
 6. git commit: mehrmals, zum Updaten bzw. Hinzufügen neuer Datei
 7. git log: einmalig, zum Abrufen der Commit History
+8. git push: einmalig, um die Versionierungen an den Server zu übermitteln
 
 
 ## **Führen Sie git status erneut aus. Was fällt Ihnen dazu auf?**
