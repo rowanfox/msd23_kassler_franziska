@@ -59,7 +59,7 @@ public class CalculatorTest {
         assertEquals(120, calculator.factorial(5));
 
         assertEquals(0, calculator.factorial(-1));
-        assertEquals(0, calculator.factorial(-5)); 
+        assertEquals(0, calculator.factorial(-5));
         assertEquals(0, calculator.factorial(-10));
     }
 
