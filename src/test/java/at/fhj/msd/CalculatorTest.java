@@ -48,5 +48,21 @@ public class CalculatorTest {
             calculator.divide(8, 0);
             });
         }
+
+    @Test
+    public void testFactorial() {
+        assertEquals(1, calculator.factorial(0));
+        assertEquals(1, calculator.factorial(1));
+        assertEquals(2, calculator.factorial(2));
+        assertEquals(6, calculator.factorial(3));
+        assertEquals(24, calculator.factorial(4));
+        assertEquals(120, calculator.factorial(5));
+
+        assertEquals(0, calculator.factorial(-1));
+        assertEquals(0, calculator.factorial(-5)); 
+        assertEquals(0, calculator.factorial(-10));
+    }
+
+
     }
 
