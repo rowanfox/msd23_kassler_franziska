@@ -1,12 +1,25 @@
 package at.fhj.msd;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Calculator {
+
+    //initialize Logger
+    private static final Logger logger = LogManager.getLogger(Calculator.class);
     public static void main(String[] args) {
+
+
+
 
         System.out.println(add(2, 4));
         System.out.println(minus(2, 4));
         System.out.println(divide(2, 4));
         System.out.println(multiply(2, 4));
+
+        //log entries
+        logger.info("Info message");
+        logger.error("Error message");
 
         System.out.println("Franziska Kassler");
 
