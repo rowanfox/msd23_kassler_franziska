@@ -26,25 +26,32 @@ public class Calculator {
     }
 
     public static double add(double number1, double number2){
+        logger.debug("Add method called with parameters: number1={}, number2={}", number1, number2);
         return number1 + number2;
     }
 
     public static double minus(double number1, double number2){
+        logger.debug("Minus method called with parameters: number1={}, number2={}", number1, number2);
         return number1 - number2;
     }
 
     public static double divide(double number1, double number2){
+        logger.debug("Divide method called with parameters: number1={}, number2={}", number1, number2);
+
         if (number2 == 0) {
+            logger.error("Error: Division by zero attempted");
             throw new ArithmeticException("Division by zero");
         }
         return number1 / number2;
     }
 
     public static double multiply(double number1, double number2){
+        logger.debug("Multiply method called with parameters: number1={}, number2={}", number1, number2);
         return number1 * number2;
     }
 
     public static int factorial(int number){
+        logger.debug("Factorial method called with parameter: number={}", number);
         if (number < 0) {
             return 0;
         }

@@ -10,5 +10,10 @@ die Log-Einträge haben – wie beabsichtigt – unterschiedliche Log-Level, die
 
 
 
+![](resources/images/ex5_3.png)
+
+
+
+
 
 

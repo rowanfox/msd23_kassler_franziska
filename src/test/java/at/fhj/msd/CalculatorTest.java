@@ -40,6 +40,9 @@ public class CalculatorTest {
         assertEquals(2, calculator.divide(8, 4));
         assertEquals(-3, calculator.divide(-3, 1));
         assertEquals(2, calculator.divide(4, 2));
+
+        assertThrows(ArithmeticException.class, () -> { calculator.divide(5, 0);
+        });
     }
 
     @Test
